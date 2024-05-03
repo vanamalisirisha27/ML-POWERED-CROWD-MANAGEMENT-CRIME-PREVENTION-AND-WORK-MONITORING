@@ -48,7 +48,7 @@ pytz==2024.1
 PyYAML==6.0.1
 referencing==0.33.0
 requests==2.31.0
-retinaface==0.0.17
+retinaface==1.1.1
 rich==13.7.1
 rpds-py==0.18.0
 scipy==1.12.0
