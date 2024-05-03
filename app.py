@@ -1,7 +1,7 @@
 # Python In-built packages
 from pathlib import Path
 import PIL
-import supervision as sv
+#import supervision as sv
 from pydub.playback import play
 from playsound import playsound
 # External packages
