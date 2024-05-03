@@ -37,7 +37,7 @@ nvidia-cusolver-cu11==11.4.0.1
 nvidia-cusparse-cu11==11.7.4.91
 nvidia-nccl-cu11==2.14.3
 nvidia-nvtx-cu11==11.7.91
-opencv-python==4.9.0.80
+opencv-python==4.6.0.66
 opencv-python-headless==4.6.0.66
 packaging==23.2
 pandas==2.2.1
@@ -55,7 +55,7 @@ scipy==1.12.0
 seaborn==0.13.2
 streamlit==1.30.0
 tenacity==8.2.3
-tensorflow==2.12.0
+tensorflow==2.5.0
 toolz==0.12.1
 torch==2.2.1
 torchvision==0.17.1
