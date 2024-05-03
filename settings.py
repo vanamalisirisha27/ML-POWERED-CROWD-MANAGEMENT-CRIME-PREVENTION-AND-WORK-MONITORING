@@ -18,30 +18,30 @@ ROOT = root_path.relative_to(Path.cwd())
 IMAGE = 'Image'
 VIDEO = 'Video'
 WEBCAM = 'Webcam'
-RTSP = 'RTSP'
-YOUTUBE = 'YouTube'
 
-SOURCES_LIST = [IMAGE, VIDEO, WEBCAM, RTSP, YOUTUBE]
+SOURCES_LIST = [IMAGE, VIDEO, WEBCAM]
 
 # Images config
 IMAGES_DIR = ROOT / 'images'
-DEFAULT_IMAGE = IMAGES_DIR / 'office_4.jpg'
-DEFAULT_DETECT_IMAGE = IMAGES_DIR / 'office_4_detected.jpg'
+CROWD_IMAGE = IMAGES_DIR / 'crowd.jpg'
+CROWD_DETECT_IMAGE = IMAGES_DIR / 'crowd_detected.jpg'
+VIOLENCE_IMAGE = IMAGES_DIR / 'violence.jpg'
+VIOLENCE_DETECT_IMAGE = IMAGES_DIR / 'violence_detected.jpg'
+WEAPON_IMAGE = IMAGES_DIR / 'weapon.jpg'
+WEAPON_DETECT_IMAGE = IMAGES_DIR / 'weapon_detected.jpg'
+WORK_IMAGE = IMAGES_DIR / 'work.jpg'
+WORK_DETECT_IMAGE = IMAGES_DIR / 'work.jpg'
+CRIME_IMAGE = IMAGES_DIR / 'criminal.jpg'
+CRIME_DETECT_IMAGE = IMAGES_DIR / 'criminal.jpg'
 
-# Videos config
-VIDEO_DIR = ROOT / 'videos'
-VIDEO_1_PATH = VIDEO_DIR / 'video_1.mp4'
-VIDEO_2_PATH = VIDEO_DIR / 'video_2.mp4'
-VIDEO_3_PATH = VIDEO_DIR / 'video_3.mp4'
-VIDEOS_DICT = {
-    'video_1': VIDEO_1_PATH,
-    'video_2': VIDEO_2_PATH,
-    'video_3': VIDEO_3_PATH,
-}
 
 # ML Model config
 MODEL_DIR = ROOT / 'weights'
-DETECTION_MODEL = MODEL_DIR / 'yolov8n.pt'
+DETECTION_MODEL1 = MODEL_DIR / 'bestcrowd.pt'
+DETECTION_MODEL2 = MODEL_DIR / 'best_violence.pt'
+DETECTION_MODEL3 = MODEL_DIR / 'best_pistolsknives.pt'
+DETECTION_MODEL4 = MODEL_DIR / 'best_work_monitoring.pt'
+DETECTION_MODEL5 = MODEL_DIR / 'criminal_face_detection_resnetmodel.pth'
 # In case of your custome model comment out the line above and
 # Place your custom model pt file name at the line below 
 # DETECTION_MODEL = MODEL_DIR / 'my_detection_model.pt'
