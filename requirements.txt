@@ -55,7 +55,7 @@ scipy==1.12.0
 seaborn==0.13.2
 streamlit==1.10.0
 tenacity==8.2.3
-tensorflow==2.5.0
+tensorflow==2.4.*
 toolz==0.12.1
 torch==2.2.1
 torchvision==0.17.1
